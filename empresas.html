@@ -23,6 +23,14 @@
         .jumbotron {
             margin-top: 20px;
             }
+
+          img {
+             display: block;
+      margin-left: auto;
+      margin-right: auto;
+      border:none;
+          }
+
       </style>
   </head>
     
@@ -36,12 +44,12 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-        <a class="navbar-brand" href="#">BigBangCode.co</a>
+        <a class="navbar-brand" href="index.html">BigBangCode.co</a>
         <div class="nav-collapse collapse">
           <ul class="nav navbar-nav">
-            <li><a href="#">Inicio</a></li>
+            <li ><a href="index.html">Inicio</a></li>
             
-            <li class="dropdown">
+            <li class="active" class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown">Desarrollo Web <b class="caret"></b></a>
               <ul class="dropdown-menu">
                 <li><a href="#">Action</a></li>
@@ -54,7 +62,7 @@
               </ul>
             </li>
               
-            <li><a href="#about">Contáctenos</a></li>  
+            <li><a href="contactenos.html">Contáctenos</a></li>  
           </ul>
           <ul class="nav navbar-nav pull-right">
             <li><a href="/examples/navbar/">Default</a></li>
@@ -65,18 +73,40 @@
       </div>
     </div>
 
-    <div class="container">
+    <div class="container marketing">
+        <div class="featurette">
+ <img  src="img/macwp.png" width="70%">
+     </div>
+        
+        <hr class="featurette-divider">
 
-      <!-- Main component for a primary marketing message or call to action -->
-      <div class="jumbotron">
-        <h1>Navbar example</h1>
-        <p>This example is a quick exercise to illustrate how the default, static navbar and fixed to top navbar work. It includes the responsive CSS and HTML, so it also adapts to your viewport and device.</p>
-        <p>
-          <a class="btn btn-large btn-primary" href="../../docs/#navbar">View navbar docs &raquo;</a>
-        </p>
-      </div>
-
+        <div class="featurette">
+            <img>
+            <h2 class="featurette-heading">Gestor de Contenidos</h2>
+            <h3> <span class="text-muted">No estatico, Evoluciona!</span></h3>
+            <p>CMS son las siglas de Content Management System, en español significa Sistema Gestor de Contenidos. Esta herramienta te permite crear, modificar y publicar cualquier tipo de información en una página web. Tienes la ventaja que para actualizar o modificar información en tu página web no dependes de nadie, lo puedes hacer tú mismo! En el mundo de hoy nada es estático, tu web tampoco lo es, según tu creatividad va a evolucionar! </p>
+        </div>
+        
+        <hr class="featurette-divider">
+        
+        
+        <div class="featurette">
+            <img class="featurette-image img-rounded pull-right"  src="img/movil.png" alt="200x200" width="25%">
+            <h2 class="feturette-heading">
+                Movil <span class="text-muted"></span>
+            </h2>
+            <p >No te ha pasado que cuando visitas una web desde un dispositivo móvil(smartphone, tablet, etc.) se demora mucho en cargar, no puedes ver la pagina completa y tienes que estar moviendote de derecha a izquierda para leer un parrafo, o que simplemente no te carga la página o te dice que no es compatible con tu dispositivo?
+Pues nosotros somo conscientes de lo molesto que esto es y tenemos la solución para ello, al adquirir cualquiera de nuestros planes, tienes la ran ventaja que este se va a adaptar para que cargue de la mejor manera en cualquier dispoditivo móvil gracias a una nueva tecnología llamada responsive ya le puedes decir adiós a esa molestia al navega desde tu móvil!</p>
+        </div>
+        <hr class="featurette-divider">
     </div> <!-- /container -->
+      
+      <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="http://examples.getbootstrap.com/assets/js/jquery.js"></script>
+    <script src="../dist/js/bootstrap.js"></script>
+    <script src="http://examples.getbootstrap.com/assets/js/holder.js"></script>
 
   </body>
 </html>
